@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+my_env/
+venv/
+env/
+
+# VS Code or other IDE configs
+.vscode/
+.idea/
+.theia/
+
+# Environment variables and sensitive info
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pycache inside nested folders
+**/__pycache__/
+
+# Optional: Ignore Gradio's temporary launch files (can be re-enabled)
+*.gradio
+
+# Compiled files
+*.so
+*.pyd
+*.dll
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Mac/Linux hidden files
+.swp
+.swo
